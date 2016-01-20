@@ -1,28 +1,20 @@
 <html>
 <head>
-  <title>Triangle Tester</title>
+  <title>cryptosquare</title>
   <script src="js/jquery-1.12.0.js"></script>
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
-  <form id="triangle">
+  <form id="code-entry-form">
   <div class="form-group">
-    <label>side1</label>
-    <input type="text" class="form-control" id="sideOne">
+    <label>text</label>
+    <input type="text" class="form-control" id="code-entry" rows="3"></input>
   </div>
-  <div class="form-group">
-    <label>side2</label>
-    <input type="text" class="form-control" id="sideTwo">
-  </div>
-  <div class="form-group">
-    <label>side3</label>
-    <input type="text" class="form-control" id="sideThree">
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" id="submit-button">Submit</button>
 </form>
-<span>Answer: </span><span id="result"></span>
-
+<span>Answer: </span><p id="result"></p>
+<span>Answer: </span><p id="result-encryption"></p>
 </body>
 </html>
